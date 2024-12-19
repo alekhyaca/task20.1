@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffeef0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #d63031;
+}
+
+.example {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.example div {
+    background-color: #d63031;
+    width: 30px;
+    height: 30px;
+}
+
+.flex-direction.row {
+    flex-direction: row;
+}
+
+.flex-direction.column {
+    flex-direction: column;
+}
+
+.flex-direction.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-direction.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.align-items.flex-start {
+    align-items: flex-start;
+}
+
+.align-items.center {
+    align-items: center;
+}
+
+.align-items.flex-end {
+    align-items: flex-end;
+}
+
+.align-items.stretch {
+    align-items: stretch;
+}
+
+.justify-content.flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content.center {
+    justify-content: center;
+}
+
+.justify-content.flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content.space-between {
+    justify-content: space-between;
+}
+
+.justify-content.space-around {
+    justify-content: space-around;
+}
+
+.justify-content.space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-content.flex-start {
+    align-content: flex-start;
+}
+
+.align-content.center {
+    align-content: center;
+}
+
+.align-content.flex-end {
+    align-content: flex-end;
+}
+
+.align-content.stretch {
+    align-content: stretch;
+}
+
+.align-content.space-between {
+    align-content: space-between;
+}
+
+.align-content.space-around {
+    align-content: space-around;
+}
+
+.multi-line {
+    flex-wrap: wrap;
+    height: 120px;
+}
